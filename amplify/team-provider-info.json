@@ -1,0 +1,24 @@
+{
+  "amplifyenv": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dietiestates-amplifyenv-a2e1d-authRole",
+      "UnauthRoleArn": "arn:aws:iam::325066840575:role/amplify-dietiestates-amplifyenv-a2e1d-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::325066840575:role/amplify-dietiestates-amplifyenv-a2e1d-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-dietiestates-amplifyenv-a2e1d-deployment",
+      "UnauthRoleName": "amplify-dietiestates-amplifyenv-a2e1d-unauthRole",
+      "StackName": "amplify-dietiestates-amplifyenv-a2e1d",
+      "StackId": "arn:aws:cloudformation:eu-north-1:325066840575:stack/amplify-dietiestates-amplifyenv-a2e1d/bd8d2a90-63ae-11f0-95b8-0eb6908f15fd",
+      "AmplifyAppId": "ds578nbuc3vlo"
+    },
+    "categories": {
+      "api": {
+        "amplifyDatasource": {}
+      },
+      "auth": {
+        "dietiestates3e82ca80": {},
+        "dietiestates": {}
+      }
+    }
+  }
+}
