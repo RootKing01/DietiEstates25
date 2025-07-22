@@ -4,9 +4,8 @@ import { schema } from './schema';
 
 
 
-const { Post, Comment } = initSchema(schema);
+const { User } = initSchema(schema);
 
 export {
-  Post,
-  Comment
+  User
 };
