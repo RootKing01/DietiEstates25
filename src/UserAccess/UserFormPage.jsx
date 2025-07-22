@@ -1,4 +1,4 @@
-import UserCreateForm  from '../ui-components/UserCreateForm.jsx';
+import UserCreateForm  from '../ui-components/UserCreateForm';
 import { DataStore } from 'aws-amplify/datastore';
 import { User } from '../models';
 
@@ -19,13 +19,14 @@ export default function UserFormPage() {
 
 async function saveUser(fields){
 
-    await DataStore.save(
-        new User({
-            "Name": fields.Name.trim(),
-            "Surname": fields.Surname.trim(),
-            "Email": fields.Email.trim(),
-            "Password": fields.Password.trim(),
-            "TelephoneNumber": fields.TelephoneNumber.trim()
-        })
-    );
+        await DataStore.save(
+            new User({
+                "Name": fields.Name.trim(),
+                "Surname": fields.Surname.trim(),
+                "Email": fields.Email.trim(),
+                "Password": fields.Password.trim(),
+                "TelephoneNumber": fields.TelephoneNumber.trim()
+            })
+        );
+
 }
