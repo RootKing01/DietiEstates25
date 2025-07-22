@@ -1,16 +1,14 @@
 import './App.css';
 import React, { useState } from 'react';
 import { View, Button, TextField, Flex, Heading } from '@aws-amplify/ui-react';
-import UserCreateForm from "./ui-components/UserCreateForm.jsx";
-import { DataStore } from 'aws-amplify/datastore';
-import { User } from './models';
+import UserFormPage from "./UserAccess/UserFormPage.jsx";
 
 
 function App() {
 
   return (
       <View>
-        <UserCreateForm></UserCreateForm>
+        <UserFormPage></UserFormPage>
         <p>HI, I'm A diV</p>
       </View>
   );
